@@ -12,7 +12,7 @@ mode: dark # default theme "dark" | "light"
 author:
   name: Huayang Yuan # author name
   bio: >- # tell to the world
-    Hello! I'm Huayang Yuan from Xidian University <a href="https://github.com/Geek3600" target="_blank" rel="noopener">@github</a>.
+    Hello! I'm Huayang Yuan from Xidian University<a href="https://github.com/Geek3600" target="_blank" rel="noopener">@github</a>.
   username: username # general username
   github: Geek3600 # github username
   twitter: twitter_username # twitter username
