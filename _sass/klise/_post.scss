@@ -7,11 +7,14 @@
 }
 
 // Post title
+// 定义头部的样式
 .header {
+  // 设置头部上下外边距
   margin-top: 7.8em;
   margin-bottom: 3em;
-
+  // 标签容器
   .tags {
+    // 设置标签容器的左外边距和内部文字间距
     margin-left: 3px;
     letter-spacing: 0.5px;
 
