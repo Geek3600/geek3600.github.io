@@ -13,7 +13,7 @@ author:
   name: Huayang Yuan # author name
   bio: >- # tell to the world
     Hello! I'm Huayang Yuan from Xidian University<a href="https://github.com/Geek3600" target="_blank" rel="noopener">@github</a>.
-  username: username # general username
+  username: huayang yuan # general username
   github: Geek3600 # github username
   twitter: twitter_username # twitter username
   facebook: facebook_username # facebook username
@@ -21,8 +21,8 @@ author:
   avatar: /assets/img/avatar2.jpg # change with your own avatar
 
 # URL settings
-url: "https://klise.now.sh" #
-baseurl:
+url: "https://huayangyuan.github.io" #
+baseurl: ""
 permalink: /:title/
 google_analytics: # leave it blank if not wish
 fb_appid:
