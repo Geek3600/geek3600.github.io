@@ -1,9 +1,9 @@
 # Site settings
-title: huayang_yuan # site title
-description: >- # site description
-  1
-lang: en-US # default lang
-timezone: Asia/Jakarta # set your timezone
+title: huayang_yuan # 网站标题
+description: >- # 网站描述
+  阿斯顿发生上帝发誓
+lang: en-US # 默认语言
+timezone: Asia/Jakarta # 设置你的时区
 image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
 repo: https://github.com/piharpi/jekyll-klise # site repo [optional]
 mode: dark # default theme "dark" | "light"
