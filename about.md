@@ -1,5 +1,5 @@
 ---
-title: Yuan Huayang
+title: Huayang 
 permalink: /about/
 layout: page
 excerpt: Hello peeps, I'm student of computer science from Banyuwangi, living in Jogjakarta. This blog for documentation about my programming journey, running on jekyll, hosting on netlify and using my own simple theme.
@@ -16,6 +16,3 @@ I'm a Master's Student at the School of Computer Science, Fudan University in Sh
 
 1. {{ site.author.email }}
 2. github.com/{{ site.author.github }}
-   1-
-3. 
-4.
