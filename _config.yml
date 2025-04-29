@@ -1,7 +1,7 @@
 # Site settings
 title: huayang_yuan # 网站标题
 description: >- # 网站描述
-  阿斯顿发生上帝发誓
+  1
 lang: en-US # 默认语言
 timezone: Asia/Jakarta # 设置你的时区
 image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
@@ -12,64 +12,64 @@ mode: dark # default theme "dark" | "light"
 author:
   name: Huayang Yuan # author name
   bio: >- # tell to the world
-    Hello! I'm Huayang Yuan from Xidian University<a href="https://github.com/Geek3600" target="_blank" rel="noopener">@github</a>.
+    Hello! I'm Huayang Yuan from Fudan University<a href="https://github.com/Geek3600" target="_blank" rel="noopener">@github</a>.
   username: huayang yuan # general username
   github: Geek3600 # github username
-  twitter: twitter_username # twitter username
-  facebook: facebook_username # facebook username
-  email: 2741057934@qq.com # email adress
+  twitter:  # twitter username
+  facebook:  # facebook username
+  email: yuanhuayang0@foxmail.com # email adress
   avatar: /assets/img/avatar2.jpg # change with your own avatar
 
 # URL settings
 url: "https://huayangyuan.github.io" #
 baseurl: ""
-permalink: /:title/
-google_analytics: # leave it blank if not wish
+permalink: /:title/ # 文章的永久链接格式，:title表示文章的标题
+google_analytics: # Google Analytics 跟踪 ID
 fb_appid:
 
 # Collection setting
 collections:
-  posts:
-    output: true
+  posts: # 这是 Jekyll 内置的特殊集合，用于存放博客文章 (_posts 目录下的文件)
+    output: true # 确保 _posts 目录下的每篇文章都会被渲染成一个单独的 HTML 页面。这是标准配置
 
 # Markdown settings
-markdown: kramdown
-highlighter: rouge
+markdown: kramdown # Markdown 处理器
+highlighter: rouge  # 代码语法高亮器
 kramdown:
-  syntax_highlighter: rouge
+  syntax_highlighter: rouge # Kramdown 使用的语法高亮器
 
 # Default front matter
 defaults:
   - scope:
-      path: ""
+      path: "" # 作用域：所有文件
     values:
-      layout: post
-      comments: false
+      layout: post # 默认布局为 post
+      comments: false # 默认禁用评论
 
 # Jekyll Compose default front matter
-jekyll_compose:
-  post_default_front_matter:
+jekyll_compose: # 这是为 jekyll-compose 插件（一个帮助创建新文章/草稿的工具）设置的默认 Front Matter 值。当你使用该插件的命令创建新文章或草稿时，会自动填入这些字段。
+  post_default_front_matter: # 为新文章 (post) 预设的字段（修改日期、空标签列表、空描述）
     modified:
     tags: []
     description:
-  draft_default_front_matter:
+  draft_default_front_matter: # 为新草稿 (draft) 预设的字段
     modified:
     tags: []
     description:
 
 # Homepage limit posts
-number_of_posts: 5
+number_of_posts: 5 # 首页显示的文章数量
 
 # Build settings
 # theme: klise
 sass:
-  style: compressed
+  style: compressed # Sass 输出样式：压缩
 
-include:
+include: # 构建时需要包含的文件/目录
   - _redirects
   - .htaccess
 
-exclude:
+exclude: # 构建时需要排除的文件/目录，这里列出的是常见的开发文件、配置文件、源代码文件等
   - CNAME
   - Gemfile
   - Gemfile.lock
